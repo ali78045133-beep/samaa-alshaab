@@ -1,5 +1,5 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
-import { AuthProvider, useAuth } from './hooks/useAuth.js'
+import { AuthProvider, useAuth } from "./hooks/useAuth.jsx"
 import { initDB } from './db.js'
 import { useEffect, useState } from 'react'
 import Layout from './components/Layout.jsx'
