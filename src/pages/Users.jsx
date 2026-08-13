@@ -3,7 +3,7 @@ import { Plus, Search, Edit2, Trash2, Shield, User, Lock } from 'lucide-react'
 import { query, run } from '../db.js'
 import Modal from '../components/Modal.jsx'
 import ConfirmDialog from '../components/ConfirmDialog.jsx'
-import { useAuth } from '../hooks/useAuth.js'
+import { useAuth } from '../hooks/useAuth.jsx'
 
 export default function Users() {
   const { user: currentUser } = useAuth()
