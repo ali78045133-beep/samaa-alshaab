@@ -1,5 +1,5 @@
 import { Outlet, useNavigate, useLocation } from 'react-router-dom'
-import { useAuth } from '../hooks/useAuth.js'
+import { useAuth } from '../hooks/useAuth.jsx'
 import { useState, useEffect } from 'react'
 import { 
   LayoutDashboard, Package, Tags, Truck, Users, ShoppingCart, 
